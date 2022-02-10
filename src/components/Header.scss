@@ -1,0 +1,49 @@
+
+
+.header {
+  width: 100%;
+
+  .header__inner {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+
+    .header__top {
+      width: 90%;
+      display: flex;
+      justify-content: end;
+      padding: 5px 0;
+
+      .header__top-nav {
+        font-size: 12px;
+        color: #fff;
+
+        span {
+          display: inline-block;
+          cursor: pointer;
+          padding: 3px 5px;
+        }
+
+        span:hover {
+          color: #252314;
+        }
+      }
+    }
+
+    .header__bottom {
+      padding: 10px 0;
+      display: flex;
+      width: 90%;
+      justify-content: space-between;
+
+      .header__bottom-logo {
+        font-family: 'Carter One', cursive;
+        font-weight: bold;
+        font-size: 60px;
+      }
+
+    }
+  }
+}
+
