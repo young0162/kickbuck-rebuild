@@ -18,7 +18,7 @@ const Header = () => {
           <div></div>
           <div className="header__bottom-logo">KICK BUCK</div>
           <div className="header__bottom-menuBtn">
-            <Menu />
+            <Menu sx={{ fontSize: 40 }} />
           </div>
         </div>
       </div>

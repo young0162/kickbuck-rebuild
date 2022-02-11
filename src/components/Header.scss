@@ -36,11 +36,16 @@
       display: flex;
       width: 90%;
       justify-content: space-between;
+      align-items: center;
 
       .header__bottom-logo {
         font-family: 'Carter One', cursive;
         font-weight: bold;
         font-size: 60px;
+      }
+      
+      .header__bottom-menuBtn {
+        cursor: pointer;
       }
 
     }
