@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu } from "@mui/icons-material";
-import "./Header.scss";
+import "../assets/scss/Header.scss";
 
 const Header = () => {
   return (
